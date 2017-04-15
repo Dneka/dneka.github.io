@@ -1,0 +1,1419 @@
+/*Main settings*/
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+}
+button:focus {
+	outline: none;
+	}
+button {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid;
+}
+button:active, button:focus {
+    position: relative;
+}
+.container {
+	width: 1450px;
+}
+/*Fonts*/
+/*for raleway use font-family: 'Raleway', sans-serif;*/
+/*for montserrat use font-family: 'Montserrat', sans-serif;*/
+.main {
+	background-image: url(../img/bground.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 1025px;
+}
+#logo img {
+	margin-top: 4rem;
+	margin-left: 13rem;
+}
+.main span {
+	position: absolute;
+	font-size: 34px;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	font-family: 'Raleway', sans-serif;
+	line-height: 14rem;
+}
+.main ul {
+	margin-top: 5.7rem;
+	font-size: 0px;
+	display: inline-block;
+}
+.main li {
+	list-style-type: none;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	padding-right: 3rem;
+}
+.menu a {
+	color: #fff;
+	text-decoration: none;
+}
+.contact {
+	margin-right: 3rem;
+}
+.menu a:hover {
+	color: rgb(199,178,153);
+	transition: all 0.3s;
+}
+.slogan {
+	color: #fff;
+	margin-top: 27.7rem;
+	margin-left: -1rem;
+}
+.slogan h2 {
+	font-size: 36px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	margin-left: 1rem;
+}
+.slogan h1 {
+	margin: 0;
+  font-size: 52px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  margin-left: 0.3rem;
+}
+.slogan p {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 1.6rem;
+	margin-left: 1rem;
+}
+.slogan button {
+	font-size: 14px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+}
+.slogan button {
+  border-radius: 3px;
+  border-color: rgb(153, 134, 117);
+  background-color: rgb(153, 134, 117);
+  width: 170px;
+  height: 53px;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+.slogan button:hover {
+	 background-color: rgb(180, 160, 140);
+	 transition: all 0.5s;
+}
+.services {
+	width: 100%;
+	height: 375px;
+}
+.logo-1 {
+	position: relative;
+	display: block;
+	margin-top: 8rem;
+	margin-left: 13.5rem;
+	width: 49px;
+	height: 49px;
+}
+.logo-1 img {
+	position: absolute;
+}
+.logo-1 img.hover {
+	opacity: 0;
+}
+.services h1 {
+	text-align: center;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+}
+.services p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: rgb(140, 140, 140);
+  text-align: center;
+  margin-top: 2rem;
+}
+.line {
+	width: 7rem;
+	border-bottom: 3px solid rgba(199, 178, 153,.3);
+	position: absolute;
+	margin-left: 13rem;
+  padding-top: 3rem;
+}
+.services .col-md-3:hover h1{
+	color: rgb(199, 178, 153);
+	transition: all 0.3s;
+}
+.services .col-md-3:hover .line {
+	border-color: rgb(199, 178, 153);
+	transition: all 0.3s;
+}
+.services .col-md-3:hover .logo-1 img.hover {
+	opacity: 1;
+	transition: all 0.3s;
+}
+.services .col-md-3:hover .logo-1 img.nohover{
+	opacity: 0;
+	transition: all 0.3s;
+}
+.logo-2 {
+	position: relative;
+	display: block;
+	margin-top: 8rem;
+	margin-left: 13.5rem;
+	width: 49px;
+	height: 49px;
+}
+.logo-2 img {
+	position: absolute;
+	margin-left: 0.6rem;
+}
+.logo-2 img.hover {
+	opacity: 0;
+	transition: all 0.3s;
+}
+.services .col-md-3:hover .logo-2 img.hover {
+	opacity: 1;
+	transition: all 0.3s;
+}
+.services .col-md-3:hover .logo-2 img.nohover{
+	opacity: 0;
+	transition: all 0.3s;
+}
+.logo-3 {
+	position: relative;
+	display: block;
+	margin-top: 8rem;
+	margin-left: 13.5rem;
+	width: 49px;
+	height: 49px;
+}
+.logo-3 img {
+	position: absolute;
+	margin-left: 0.4rem;
+}
+.logo-3 img.hover {
+	opacity: 0;
+	transition: all 0.3s;
+}
+.services .col-md-3:hover .logo-3 img.hover {
+	opacity: 1;
+	transition: all 0.3s;
+}
+.services .col-md-3:hover .logo-3 img.nohover{
+	opacity: 0;
+	transition: all 0.3s;
+}
+.logo-4 {
+	position: relative;
+	display: block;
+	margin-top: 8rem;
+	margin-left: 13.5rem;
+	width: 49px;
+	height: 49px;
+}
+.logo-4 img {
+	position: absolute;
+	margin-left: 0.4rem;
+}
+.logo-4 img.hover {
+	opacity: 0;
+	transition: all 0.3s;
+}
+.services .col-md-3:hover .logo-4 img.hover {
+	opacity: 1;
+	transition: all 0.3s;
+}
+.services .col-md-3:hover .logo-4 img.nohover{
+	opacity: 0;
+	transition: all 0.3s;
+}
+.ideas {
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/browser-center.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.ideas h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    margin-top: 8rem;
+}
+.ideas h3 {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: rgb(140, 140, 140);
+	text-align: center;
+	line-height: 1.75;
+}
+.theme {
+	width: 100%;
+	height: 150px;
+	background-image: url(../img/Background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.theme h1,h2 {
+	font-size: 28px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	display: inline-block;
+	margin-top: 5rem;
+}
+.theme h1 {
+	color: rgb(199, 178, 153);
+}
+.theme h2 {
+	color: #fff;
+}
+.theme h3 {
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	color: rgb(97, 88, 85);
+	margin: 0;
+}
+.theme button {
+  border-radius: 3px;
+  border-color: rgb(153, 134, 117);
+  background-color: rgb(153, 134, 117);
+  width: 170px;
+  height: 53px;
+  margin-top: 5rem;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  color: #fff;
+}
+.theme button:hover {
+	 background-color: rgb(180, 160, 140);
+	 transition: all 0.5s;
+}
+.theme .col-md-6 {
+	margin-left: 13rem;
+}
+.theme .col-md-2 {
+	margin-left: 28rem;
+}
+.portfolio {
+	width: 100%;
+	height: 1180px;
+}
+.portfolio h1 {
+	text-align: center;
+	margin-top: 8rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+}
+.portfolio h3 {
+	font-size: 16px;
+	color: rgb(140, 140, 140);
+	text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.portfolio li {
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 4rem;
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
+	padding-right: 1rem;
+}
+.portfolio button {
+   color: rgb(140, 140, 140);
+   background-color: #fff;
+   border-radius: 3px;
+   width: 120px;
+}
+button.all {
+	width: 70px;
+}
+.portfolio button:hover {
+	 background-color: rgb(153,134,117);
+	 transition: all 0.5s;
+	 color: rgb(255, 255, 255);
+	 border-radius: 3px;
+}
+.work {
+	display: inline-block;
+	margin-left: 14rem;
+}
+.samsung {
+	margin-top: 4rem;
+	margin-right: 3rem;
+	width: 370px;
+  height: 340px;
+  background-color: #fff;
+  position: relative;
+}
+.samsung h1 {
+	margin-top: 3rem;
+	margin-right: 9rem;
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	color: rgb(199, 178, 153);
+}
+.samsung h3 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(209, 209, 209);
+  margin: 0;
+  margin-right: 17.7rem;
+  margin-top: 1rem;
+}
+.arrow {
+	position: absolute;
+	margin-top: -10.8rem;
+	margin-left: 1.8rem;
+	border: 20px solid transparent;	
+	border-bottom: 13px solid #fff;
+}
+.samsung:hover .arrow {
+  border-bottom: 13px solid rgb(54,47,45);
+  transition: all 0.5s;
+}
+.samsung:hover {
+	background-color: rgb(54,47,45);
+	transition: all 0.5s;
+}
+.samsung:hover h1 {
+	color: #fff;
+}
+.samsung:hover h3 {
+	color: rgb(199, 178, 153);
+}
+.samsung .link {
+	position: absolute;
+	left: 39%;
+	top: 31.5%;
+	z-index: 999;
+}
+.samsung .link {
+	opacity: 0;
+}
+.samsung:hover .link {
+    opacity: 1;
+    transition: all 0.5s;
+}
+.samsung .lupa {
+	position: absolute;
+	left: 54%;
+	top: 31.5%;
+	z-index: 999;
+}
+.samsung .lupa {
+	opacity: 0;
+}
+.samsung:hover .lupa {
+	opacity: 1;
+	transition: all 0.5s;
+}
+.samsung:hover .phone {
+   opacity: 0.4;
+}
+.rock,.qinim,.water,.mock,.videntur {
+	display: inline-block;
+}
+.rock {
+	margin-top: 4rem;
+	margin-right: 3rem;
+	width: 370px;
+  height: 340px;
+  background-color: #fff;
+  position: relative;
+}
+.rock h1 {
+	margin-top: 3rem;
+	margin-right: 11rem;
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	color: rgb(199, 178, 153);
+}
+.rock h3 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(209, 209, 209);
+  margin: 0;
+  margin-top: 1rem;
+  margin-right: 14.7rem;
+}
+.arrow {
+	position: absolute;
+	margin-top: -10.8rem;
+	margin-left: 1.8rem;
+	border: 20px solid transparent;	
+	border-bottom: 13px solid #fff;
+}
+.rock:hover .arrow {
+  border-bottom: 13px solid rgb(54,47,45);
+  transition: all 0.5s;
+}
+.rock:hover {
+	background-color: rgb(54,47,45);
+	transition: all 0.5s;
+}
+.rock:hover h1 {
+	color: #fff;
+}
+.rock:hover h3 {
+	color: rgb(199, 178, 153);
+}
+.rock .link {
+	position: absolute;
+	left: 39%;
+	top: 31.5%;
+	z-index: 999;
+}
+.rock .link {
+	opacity: 0;
+}
+.rock:hover .link {
+    opacity: 1;
+    transition: all 0.5s;
+}
+.rock .lupa {
+	position: absolute;
+	left: 54%;
+	top: 31.5%;
+	z-index: 999;
+}
+.rock .lupa {
+	opacity: 0;
+}
+.rock:hover .lupa {
+	opacity: 1;
+	transition: all 0.5s;
+}
+.rock:hover .phone {
+   opacity: 0.4;
+}
+.qinim {
+	margin-top: 4rem;
+	margin-right: 3rem;
+	width: 370px;
+  height: 340px;
+  background-color: #fff;
+  position: relative;
+}
+.qinim h1 {
+	margin-top: 3rem;
+	margin-right: 10.6rem;
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	color: rgb(199, 178, 153);
+}
+.qinim h3 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(209, 209, 209);
+  margin: 0;
+  margin-top: 1rem;
+  margin-right: 17.7rem;
+}
+.arrow {
+	position: absolute;
+	margin-top: -10.8rem;
+	margin-left: 1.8rem;
+	border: 20px solid transparent;	
+	border-bottom: 13px solid #fff;
+}
+.qinim:hover .arrow {
+  border-bottom: 13px solid rgb(54,47,45);
+  transition: all 0.5s;
+}
+.qinim:hover {
+	background-color: rgb(54,47,45);
+	transition: all 0.5s;
+}
+.qinim:hover h1 {
+	color: #fff;
+}
+.qinim:hover h3 {
+	color: rgb(199, 178, 153);
+}
+.qinim .link {
+	position: absolute;
+	left: 39%;
+	top: 31.5%;
+	z-index: 999;
+}
+.qinim .link {
+	opacity: 0;
+}
+.qinim:hover .link {
+    opacity: 1;
+    transition: all 0.5s;
+}
+.qinim .lupa {
+	position: absolute;
+	left: 54%;
+	top: 31.5%;
+	z-index: 999;
+}
+.qinim .lupa {
+	opacity: 0;
+}
+.qinim:hover .lupa {
+	opacity: 1;
+	transition: all 0.5s;
+}
+.qinim:hover .phone {
+   opacity: 0.4;
+}
+.water {
+	margin-left: 14rem;
+}
+.water {
+	margin-top: 4rem;
+	margin-right: 3rem;
+	width: 370px;
+  height: 340px;
+  background-color: #fff;
+  position: relative;
+}
+.water h1 {
+	margin-top: 3rem;
+	margin-right: 9rem;
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	color: rgb(199, 178, 153);
+}
+.water h3 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(209, 209, 209);
+  margin: 0;
+  margin-right: 17.7rem;
+  margin-top: 1rem;
+}
+.arrow {
+	position: absolute;
+	margin-top: -10.8rem;
+	margin-left: 1.8rem;
+	border: 20px solid transparent;	
+	border-bottom: 13px solid #fff;
+}
+.water:hover .arrow {
+  border-bottom: 13px solid rgb(54,47,45);
+  transition: all 0.5s;
+}
+.water:hover {
+	background-color: rgb(54,47,45);
+	transition: all 0.5s;
+}
+.water:hover h1 {
+	color: #fff;
+}
+.water:hover h3 {
+	color: rgb(199, 178, 153);
+}
+.water .link {
+	position: absolute;
+	left: 39%;
+	top: 31.5%;
+	z-index: 999;
+}
+.water .link {
+	opacity: 0;
+}
+.water:hover .link {
+    opacity: 1;
+    transition: all 0.5s;
+}
+.water .lupa {
+	position: absolute;
+	left: 54%;
+	top: 31.5%;
+	z-index: 999;
+}
+.water .lupa {
+	opacity: 0;
+}
+.water:hover .lupa {
+	opacity: 1;
+	transition: all 0.5s;
+}
+.water:hover .phone {
+   opacity: 0.4;
+}
+.mock {
+	margin-top: 4rem;
+	margin-right: 3rem;
+	width: 370px;
+  height: 340px;
+  background-color: #fff;
+  position: relative;
+}
+.mock h1 {
+	margin-top: 3rem;
+	margin-right: 11rem;
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	color: rgb(199, 178, 153);
+}
+.mock h3 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(209, 209, 209);
+  margin: 0;
+  margin-top: 1rem;
+  margin-right: 14.7rem;
+}
+.arrow {
+	position: absolute;
+	margin-top: -10.8rem;
+	margin-left: 1.8rem;
+	border: 20px solid transparent;	
+	border-bottom: 13px solid #fff;
+}
+.mock:hover .arrow {
+  border-bottom: 13px solid rgb(54,47,45);
+  transition: all 0.5s;
+}
+.mock:hover {
+	background-color: rgb(54,47,45);
+	transition: all 0.5s;
+}
+.mock:hover h1 {
+	color: #fff;
+}
+.mock:hover h3 {
+	color: rgb(199, 178, 153);
+}
+.mock .link {
+	position: absolute;
+	left: 39%;
+	top: 31.5%;
+	z-index: 999;
+}
+.mock .link {
+	opacity: 0;
+}
+.mock:hover .link {
+    opacity: 1;
+    transition: all 0.5s;
+}
+.mock .lupa {
+	position: absolute;
+	left: 54%;
+	top: 31.5%;
+	z-index: 999;
+}
+.mock .lupa {
+	opacity: 0;
+}
+.mock:hover .lupa {
+	opacity: 1;
+	transition: all 0.5s;
+}
+.mock:hover .phone {
+   opacity: 0.4;
+}
+.videntur {
+	margin-top: 4rem;
+	margin-right: 3rem;
+	width: 370px;
+  height: 340px;
+  background-color: #fff;
+  position: relative;
+}
+.videntur h1 {
+	margin-top: 3rem;
+	margin-right: 10.6rem;
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	color: rgb(199, 178, 153);
+}
+.videntur h3 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(209, 209, 209);
+  margin: 0;
+  margin-top: 1rem;
+  margin-right: 17.7rem;
+}
+.arrow {
+	position: absolute;
+	margin-top: -10.8rem;
+	margin-left: 1.8rem;
+	border: 20px solid transparent;	
+	border-bottom: 13px solid #fff;
+}
+.videntur:hover .arrow {
+  border-bottom: 13px solid rgb(54,47,45);
+  transition: all 0.5s;
+}
+.videntur:hover {
+	background-color: rgb(54,47,45);
+	transition: all 0.5s;
+}
+.videntur:hover h1 {
+	color: #fff;
+}
+.videntur:hover h3 {
+	color: rgb(199, 178, 153);
+}
+.videntur .link {
+	position: absolute;
+	left: 39%;
+	top: 31.5%;
+	z-index: 999;
+}
+.videntur .link {
+	opacity: 0;
+}
+.videntur:hover .link {
+    opacity: 1;
+    transition: all 0.5s;
+}
+.videntur .lupa {
+	position: absolute;
+	left: 54%;
+	top: 31.5%;
+	z-index: 999;
+}
+.videntur .lupa {
+	opacity: 0;
+}
+.videntur:hover .lupa {
+	opacity: 1;
+	transition: all 0.5s;
+}
+.videntur:hover .phone {
+   opacity: 0.4;
+}
+button.more {
+  border-radius: 3px;
+  border-color: rgb(153, 134, 117);
+  background-color: rgb(153, 134, 117);
+  color: #fff;
+  width: 170px;
+  height: 50px;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  margin-left: 65rem;
+}
+button.more:hover {
+	 background-color: rgb(180, 160, 140);
+	 transition: all 0.5s;
+}
+.video {
+	width: 100%;
+	height: 705px;
+	background-image: url(../img/poster.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.text {
+	width: 700px;
+	height: 300px;
+	position: absolute;
+	left: 33%;
+	margin-top: 21rem;
+}
+.video img {
+	left: 39%;
+	position: relative;
+}
+.video h1 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	padding-top: 2rem;
+	margin-right: 5rem;
+}
+.video h3 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-right: 5rem;
+  line-height: 1.75;
+}
+.video p {
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
+	color: rgb(199, 178, 153);
+	text-align: center;
+	margin-right: 5.5rem;
+	padding-top: 2rem;
+	font-weight: 400;
+}
+.video img:hover {
+	transform: rotate(360deg);
+	transition: all 0.8s;
+}
+.mobile {
+	width: 100%;
+	height: 695px;
+	background-image: url(../img/mobile.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mobile h1 {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+  margin-top: 20rem;
+  margin-left: 3rem;
+ }
+ .mobile h3 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(140, 140, 140);
+  line-height: 1.75;
+  margin-left: 3rem;
+ }
+ .circle1 {
+ 	 position: absolute;
+ 	 left: 11.5%;
+ 	 margin-top: 3rem;
+ }
+.circle{
+ width: 21px;
+ height: 21px;
+ display:inline-block;
+ border-radius: 50px;
+ font-size: 20px; 
+ color: #fff;
+ line-height: 100px;
+ text-align: center;
+ background: rgb(199,178,153);
+ }
+ .arroww {
+    position: relative;
+    display: inline-block;
+    width: 1rem;
+    height: 3rem;
+ }
+    .arroww::before {
+        content: '';
+        display: block;
+        position: absolute;
+        border: 2px solid;
+        width: 8px;
+        height: 8px;
+        transform: translateY(-50%) rotate(45deg); 
+        margin-top: -1.6rem; 
+        margin-right: -0.8rem;  
+    }
+    
+    .arroww::before {
+        right: 10px;
+        border-left: 1px;
+        border-bottom: 1px;
+    }
+.circle2 {
+ 	 position: absolute;
+ 	 left: 11.5%;
+ 	 margin-top: 6.5rem;
+ }
+.circle3 {
+ 	 position: absolute;
+ 	 left: 11.5%;
+ 	 margin-top: 10rem;
+ }
+.circle4 {
+ 	 position: absolute;
+ 	 left: 11.5%;
+ 	 margin-top: 13.5rem;
+ }
+ .mobile p {
+   font-size: 16px;
+   font-family: "Montserrat", sans-serif;
+   color: rgb(140, 140, 140);
+   line-height: 2.2;
+   margin-left: 13rem;
+   margin-top: 3.3rem;
+ }
+.counters {
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/counters.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.counters h1 {
+   font-size: 48px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 200;
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+.counters p {
+   font-size: 14px;
+   font-family: "Montserrat", sans-serif;
+   color: rgb(199, 178, 153);
+   font-weight: 400;
+   text-transform: uppercase;
+   text-align: center;
+}
+.border {
+	width: 3rem;
+	border-bottom: 3px solid rgb(255,255,255);
+	position: absolute;
+	margin-left: 14.5rem;
+	padding-top: 2rem;
+}
+.img-1 {
+	margin-top: 20%;
+	margin-left: 45%;
+}
+.count-1 {
+	position: relative;
+	left: 35%;
+}
+.count-2 {
+	width: 325px;
+	height: 211px;
+	position: relative;
+	left: 620%;
+	margin-top: -305%;
+}
+.img-2 {
+	margin-left: 44%;
+}
+.border2 {
+	width: 3rem;
+	border-bottom: 3px solid rgb(255,255,255);
+	position: absolute;
+	margin-left: 14.5rem;
+	padding-top: 2rem;
+}
+.count-3 {
+	width: 325px;
+	height: 211px;
+	position: relative;
+	left: 1900%;
+	margin-top: -645%;
+}
+.img-3 {
+	margin-left: 45%;
+}
+.border3 {
+	width: 3rem;
+	border-bottom: 3px solid rgb(255,255,255);
+	position: absolute;
+	margin-left: 14.5rem;
+	padding-top: 2rem;
+}
+.count-4 {
+	width: 325px;
+	height: 211px;
+	position: relative;
+	left: 2500%;
+	margin-top: -645%;
+}
+.img-4 {
+	margin-left: 43%;
+}
+.border4 {
+	width: 3rem;
+	border-bottom: 3px solid rgb(255,255,255);
+	position: absolute;
+	margin-left: 14.8rem;
+	padding-top: 2rem;
+}
+.count-5 {
+	width: 325px;
+	height: 211px;
+	position: relative;
+	left: 1450%;
+	margin-top: -306%;
+}
+.img-5 {
+	margin-left: 43%;
+}
+.border5 {
+	width: 3rem;
+	border-bottom: 3px solid rgb(255,255,255);
+	position: absolute;
+	margin-left: 14.8rem;
+	padding-top: 2rem;
+}
+.posts {
+	width: 100%;
+	height: 750px;
+}
+.posts h1 {
+  text-align: center;
+  margin-top: 8rem;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+}
+.posts h3 {
+	font-size: 16px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(140, 140, 140);
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+	html {
+		font-size: 2px;
+	}
+	.main .container {
+		width: 600px;
+	}
+	.main ul {
+		margin-left: -20rem;
+	}
+	.main .row {
+		margin-top: 20rem;
+	}
+	.logo {
+		position: relative;
+		left: 70rem;
+	}
+	.main span {
+		margin-left: 70rem;
+		margin-top: 15rem;
+	}
+	.main h2 {
+		font-size: 30px;
+	}
+	.main h1 {
+		font-size: 45px;
+	}
+	.main p {
+		font-size: 13px;
+	}
+	.main button {
+		font-size: 11px;
+		width: 100px;
+		height: 40px;
+	}
+	.main .slogan {
+     margin-left: -20rem;
+     margin-top: 150rem;
+	}
+	.services {
+		height: 1000px;
+	}
+	.services .container {
+     width: 400px;
+	}
+	.services .col-md-3 {
+		margin-top: 30rem;
+	}
+	.services .line {
+      margin-left: 67rem;
+      width: 75px;
+	}
+	.services img {
+		margin-left: 60rem;
+	}
+	.ideas .container {
+		width: 500px;
+	}
+	.ideas h1 {
+    font-size: 25px;
+    margin-top: 35rem;
+	}
+	.ideas h3 {
+		font-size: 13px;
+	}
+	.theme .container {
+		width: 500px;
+	}
+	.theme h1 {
+		font-size: 20px;
+		margin-top: 10rem;
+	}
+	.theme h2 {
+		font-size: 20px;
+	}
+	.theme h3 {
+		font-size: 13px;
+	}
+	.theme button {
+		margin-top: 10rem;
+		width: 110px;
+		height: 40px;
+		font-size: 10px;
+		margin-left: 52rem;
+	}
+	.portfolio {
+		height: 2500px;
+	}
+	.portfolio .container {
+		width: 500px;
+	}
+	.portfolio button {
+		width: 100px;
+		font-size: 12px;
+		height: 40px;
+  }
+  span.arrow {
+  	margin-top: -50rem;
+  	margin-left: 5rem;
+  }
+	.portfolio h1 {
+		font-size: 20px;
+		margin-top: 30rem;
+	}
+	.portfolio h3{
+		font-size: 15px;
+	}
+	.portfolio ul {
+     margin-right: 25rem;
+	}
+	.portfolio .samsung {
+		margin-top: 20rem;
+		margin-left: 10rem;
+		z-index: 999;
+	}
+	.samsung h1 {
+		margin-right: 50rem;
+		margin-top: 10rem;
+	}
+	.samsung h3 {
+		margin-right: 89rem;
+	}
+	.rock {
+		margin-left: 24rem;
+	}
+	.rock h1 {
+		margin-right: 60rem;
+		margin-top: 10rem;
+	}
+	.rock h3 {
+		margin-right: 72rem;
+	}
+	.qinim {
+		margin-left: 24rem;
+	}
+	.qinim h1 {
+    margin-right: 55rem;
+    margin-top: 10rem;
+	}
+	.qinim h3 {
+		margin-right: 86rem;
+	}
+	.water {
+		margin-left: 24rem;
+	}
+	.water h1 {
+    margin-right: 50rem;
+    margin-top: 10rem;
+	}
+	.water h3 {
+		margin-right: 89rem;
+	}
+	.mock {
+		margin-left: 24rem;
+	}
+	.mock h1 {
+		margin-right: 60rem;
+		margin-top: 10rem;
+	}
+	.mock h3 {
+		margin-right: 72rem;
+	}
+	.videntur {
+		margin-left: 24rem;
+	}
+	.videntur h1 {
+    margin-right: 55rem;
+    margin-top: 10rem;
+	}
+	.videntur h3 {
+		margin-right: 86rem;
+	}
+	.portfolio .more {
+		margin-left: 90rem;
+		margin-top: 19rem;
+	}
+	.text {
+		left: -12%;
+		margin-top: 115rem;
+	}
+	.video img {
+		left: 43%;
+		width: 80px;
+		height: 80px;
+	}
+  .video h1 {
+    font-size: 20px;
+  }
+  .video h3 {
+  	font-size: 13px;
+  }
+  .video p {
+  	font-size: 12px;
+  	margin-right: 10rem;
+  }
+  .mobile .container {
+  	width: 600px;
+  }
+  .mobile h1 {
+  	font-size: 20px;
+  }
+  .mobile h3 {
+  	font-size: 12px;
+  }
+  .circle1 {
+  	margin-top: 87rem;
+  }
+  .circle2 {
+  	margin-top: 67rem;
+  }
+  .circle3 {
+    margin-top: 48rem;
+  }
+  .circle4 {
+  	margin-top: 28rem;
+  }
+  .arroww {
+  	top: -175%;
+  	left: 50%;
+  }
+  .mobile p {
+  	font-size: 14px;
+  	margin-top: 29rem;
+  	margin-left: 40rem;
+  	line-height: 2.8;
+  }
+  .counters .container {
+     width: 500px;
+  }
+  .count-1 {
+  	left: -48%;
+    margin-top: 0%;
+  }
+  .counters h1 {
+  	font-size: 28px;
+  }
+  .counters p {
+  	font-size: 10px;
+  }
+  .counters img {
+  	width: 30px;
+  	height: 30px;
+  }
+  .counters img {
+  	margin-left: 47%;
+  }
+  .border {
+  	width: 10rem;
+  	left: 40.5%;
+  }
+  .count-2 {
+	width: 325px;
+	height: 211px;
+	position: relative;
+	left: -13%;
+	margin-top: -27.8%;
+ }
+ .count-2 img {
+ 	margin-left: 46.5%;
+ }
+ .border2 {
+ 	width: 10rem;
+  left: 38%;
+ }
+ .count-3 {
+ 	left: 14%;
+ 	margin-top: -51.4%;
+ }
+ .count-3 img {
+ 	position: relative;
+ 	left: -1%;
+ }
+ .border3 {
+ 	width: 10rem;
+ 	left: 38%;
+ }
+ .count-4 {
+ 	left: 39%;
+ 	margin-top: -51.6%;
+ }
+ .count-4 img {
+  margin-left: 46%;
+ }
+ .border4 {
+ 	width: 10rem;
+ 	left: 38%;
+ }
+ .count-5 {
+ 	left: 65%;
+ 	margin-top: -51.5%;
+ }
+ .count-5 img {
+ 	left: -1%;
+ 	position: relative;
+ }
+ .border5 {
+ 	width: 10rem;
+  left: 39%;
+ }
+}
