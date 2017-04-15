@@ -24,6 +24,7 @@ button:active, button:focus {
 /*Fonts*/
 /*for raleway use font-family: 'Raleway', sans-serif;*/
 /*for montserrat use font-family: 'Montserrat', sans-serif;*/
+/*for roboto use font-family: 'Roboto', sans-serif;*/
 .main {
 	background-image: url(../img/bground.jpg);
 	background-repeat: no-repeat;
@@ -1061,6 +1062,7 @@ button.more:hover {
 .posts {
 	width: 100%;
 	height: 750px;
+	background-color: #fff;
 }
 .posts h1 {
   text-align: center;
@@ -1078,6 +1080,143 @@ button.more:hover {
   font-weight: 300;
   line-height: 1.75;
 }
+.post-1 {
+	width: 370px;
+	height: 395px;
+	background-color: #fff;
+	margin-top: 4rem;
+	margin-left: 13rem;
+}
+.posts h4 {
+	margin-left: 3rem;
+	margin-top: 2rem;
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	color: rgb(85, 85, 85);
+}
+.posts h5 {
+	margin-left: 3rem;
+	margin-top: 2rem;
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
+	color: rgb(140, 140, 140);
+}
+.posts a {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(199, 178, 153);
+  font-weight: 400;
+  text-decoration: none;
+}
+.posts p {
+	width: 85px;
+	position: absolute;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(199, 178, 153);
+  font-weight: 400;
+}
+.post-1 span {
+	position: absolute;
+	margin-top: 0.6rem;
+	margin-left: 1rem;
+	border: 5px solid transparent;	
+	border-bottom: 5px solid rgb(199, 178, 153);
+	transform: rotate(90deg);
+}
+.read {
+	margin-left: 3rem;
+	position: relative;
+	margin-top: 2rem;
+	width: 200px;
+	height: 50px;
+ }
+.day {
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	margin: 2rem;
+	width: 50px;
+	height: 35px;
+	background-color: rgb(75,75,75);
+	position: absolute;
+}
+.day h6 {
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin-top: 0.5rem;
+}
+.date {
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	margin: 2rem;
+	margin-top: 5.5rem;
+	width: 50px;
+	height: 25px;
+	background-color: rgb(35,35,35);
+	position: absolute;
+}
+.date h6 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-top: 0.6rem;
+}
+.post-1,.post-2,.post-3 {
+	display: inline-block;
+}
+.post-2 {
+	margin-left: 2rem;
+	margin-top: 4rem;
+}
+.post-3 {
+	margin-left: 2rem;
+	margin-top: 4rem;
+}
+.slick img {
+   width: 344px;
+}
+.post-2 {
+	width: 370px;
+	height: 395px;
+	background-color: #fff;
+	margin-top: 4rem;
+}
+.post-2 span {
+	position: absolute;
+	margin-top: 0.6rem;
+	margin-left: 1rem;
+	border: 5px solid transparent;	
+	border-bottom: 5px solid rgb(199, 178, 153);
+	transform: rotate(90deg);
+}
+.post-3 span {
+	position: absolute;
+	margin-top: 0.6rem;
+	margin-left: 1rem;
+	border: 5px solid transparent;	
+	border-bottom: 5px solid rgb(199, 178, 153);
+	transform: rotate(90deg);
+}
+.post-3 {
+	width: 370px;
+	height: 395px;
+	background-color: #fff;
+	margin-top: 4rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 
